@@ -4,6 +4,8 @@ header {
     color: white;
     display: flex;
     justify-items: center;
+    position: fixed;
+    width: 100%;
 }
 
 header h1 {
@@ -21,6 +23,9 @@ nav {
     background :#FFFFFF;
     padding: 10px;
     border-bottom: 1px solid black;
+    position: fixed;
+    width: 100%;
+    top : 70px
 }
 
 nav ul {
@@ -37,7 +42,7 @@ nav ul li button {
 }
 
 main {
- padding: 35px;
+ padding: 140px 35px 35px 35px;
  box-sizing: border-box;
 }
 
