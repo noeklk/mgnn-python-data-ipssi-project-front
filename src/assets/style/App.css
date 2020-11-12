@@ -126,3 +126,37 @@ footer {
     width: 70%;
     margin: auto;
 }
+
+.question2, .question3, .question4 {
+    padding: 140px 30px 30px 30px;
+    box-sizing: border-box;
+}
+
+.question3 {
+    height: 95vh;
+}
+
+.question2 h1, .question3 h1, .question4 h1{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.question2 pre, .question3 pre, .question4 pre {
+    width: 900px;
+    background-color: black;
+    color: white;
+    margin: auto;
+    padding: 20px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+
+.question2 .result{
+    width: 500px;
+    margin: auto;
+}
+
+.question2 .result p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}

@@ -23,8 +23,6 @@ class App extends React.Component {
   }
 
   changePage = (num) => {
-    console.log("here");
-    console.log(num);
     this.setState({page : num})
   }
 
