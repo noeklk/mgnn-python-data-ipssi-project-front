@@ -1,0 +1,13 @@
+version: '3.6'
+services:
+    nodejs:
+        image: 'node:latest'
+        working_dir: /home/node/app
+        command:
+            - /bin/sh
+            - '-c'
+            - 'npm install && ./node_modules/.bin/react-scripts start'
+        ports:
+            - '300:3000'
+        volumes:
+            - './python-data-ipssi-app:/home/node/app'
