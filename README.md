@@ -9,6 +9,9 @@
 ## Credits & Licence
 29/05/2020 - GPL3 Licence (Open Source)
 
+### Liens
+- [Redirection vers le github du back](https://github.com/noeklk/mgnn-python-data-ipssi-project-back)
+
 **Noé ABDEL KALEK**  - *Front-End & Back-End Developer (Project Manager)*
 
 
