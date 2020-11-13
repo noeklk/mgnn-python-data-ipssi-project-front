@@ -14,7 +14,7 @@ class Question5 extends React.Component {
     }
   }
 
-  componentWillMount(){
+  componentDidMount(){
     fetch(url + "question-5")
     .then(res => res.json())
     .then(data => {
@@ -176,12 +176,12 @@ class Question5 extends React.Component {
           <h1>Le nombre de destinations desservi par les compagnies</h1>
           <Bar
           data={data}
-          height="110"
+          height={110}
         />
          <h1>Le nombre de destinations desservi par les compagnies depuis son aéroport d'origine</h1>
           <Bar
           data={data2}
-          height="110"
+          height={110}
         />
       </main>
     );

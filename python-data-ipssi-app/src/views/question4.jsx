@@ -138,17 +138,17 @@ class Question4 extends React.Component {
         <p>L'aéroport le plus fréquenté est {this.state.data.result1.airport_name}, avec {this.state.data.result1.flights_count} vols.</p>
         <p><b>Les 10 destionations les plus prisées sont : </b></p>
         <ul>
-          {this.state.data.result2.map((city) => {
+          {this.state.data.result2.map((city, index) => {
             return(
-            <li>{city.airport_name}</li>
+            <li key={index}>{city.airport_name}</li>
             )
           })}
         </ul>
         <p><b>Les 10 destionations les moins prisées sont : </b></p>
         <ul>
-          {this.state.data.result3.map((city) => {
+          {this.state.data.result3.map((city, index) => {
             return(
-            <li>{city.airport_name}</li>
+            <li key={index}>{city.airport_name}</li>
             )
           })}
         </ul>
@@ -156,25 +156,25 @@ class Question4 extends React.Component {
         <ul>
           {result4.map((fly, index) => {
             return(
-            <li>Numéro {index+1}, Avec {fly.flights_count} vols, l'avion {fly.tailnum}, il s'agit du modèle {fly.plane_model} du fabriquant {fly.plane_manufacturer}</li>
+            <li key={index}>Numéro {index+1}, Avec {fly.flights_count} vols, l'avion {fly.tailnum}, il s'agit du modèle {fly.plane_model} du fabriquant {fly.plane_manufacturer}</li>
             )
           })}
         </ul>
         <Bar
           data={data}
-          height="110"
+          height={110}
         />
         <p><b>Les 10 avions les moins utilisés sont : </b></p>
         <ul>
           {result5.map((fly, index) => {
             return(
-              <li>Numéro {index+1}, Avec {fly.flights_count} vols, l'avion {fly.tailnum}, il s'agit du modèle {fly.plane_model} du fabriquant {fly.plane_manufacturer}</li>
+              <li key={index}>Numéro {index+1}, Avec {fly.flights_count} vols, l'avion {fly.tailnum}, il s'agit du modèle {fly.plane_model} du fabriquant {fly.plane_manufacturer}</li>
             )
           })}
         </ul>
         <Bar
           data={data2}
-          height="110"
+          height={110}
         />
       </main>
     );

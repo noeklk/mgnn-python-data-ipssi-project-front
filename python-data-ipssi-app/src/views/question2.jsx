@@ -62,7 +62,7 @@ class Question2 extends React.Component {
         </div>
         <Bar
           data={data}
-          height="110"
+          height={110}
         />
       </main>
     );

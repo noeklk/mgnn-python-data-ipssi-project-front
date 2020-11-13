@@ -18,7 +18,7 @@ class Question6 extends React.Component {
     }
   }
 
-  componentWillMount(){
+  componentDidMount(){
     fetch(url + "question-6")
     .then(res => res.json())
     .then(data => {
