@@ -6,11 +6,11 @@
 ## 2 Naviguez sur le localhost du projet
 `http://localhost:3000`
 
-## Credits & Licence
-29/05/2020 - GPL3 Licence (Open Source)
-
 ### Liens
 - [Redirection vers le github du back](https://github.com/noeklk/mgnn-python-data-ipssi-project-back)
+
+## Credits & Licence
+29/05/2020 - GPL3 Licence (Open Source)
 
 **Noé ABDEL KALEK**  - *Front-End & Back-End Developer (Project Manager)*
 
