@@ -92,7 +92,7 @@ footer {
 
 .leaflet-container{
     width: 100%;
-    height: 80vh;
+    height: 76vh;
     z-index: 0
   }
   
@@ -175,4 +175,13 @@ footer {
 
 .question4 ul li{
     margin-bottom: 10px;
+}
+
+.form{
+   padding: 0 10px 10px 15px;
+}
+
+.form select{
+    padding: 5px;
+    border-radius: 20px;
 }

@@ -86,8 +86,8 @@ class Question8 extends React.Component {
     const geolocationLong = -97;
     return (
       <main>
-        <div>
-        <label>Afficher les routes aériènnes de </label>
+        <div className='form'>
+        <label>Afficher les vols partant de l'aéroport </label>
         <select onChange={e => this.diplayRoute(e)}>
           <option>aucun</option>
           <option>John F Kennedy</option>
