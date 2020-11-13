@@ -8,6 +8,6 @@ services:
             - '-c'
             - 'npm install && ./node_modules/.bin/react-scripts start'
         ports:
-            - '300:3000'
+            - '3000:3000'
         volumes:
-            - './python-data-ipssi-app:/home/node/app'
+            - './python-data-ipssi-app/.:/home/node/app/.'
