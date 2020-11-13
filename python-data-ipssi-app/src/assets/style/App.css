@@ -136,13 +136,13 @@ footer {
     height: 95vh;
 }
 
-.question2 h1, .question3 h1, .question4 h1{
-    margin-bottom: 30px;
+.question2 h1, .question3 h1, .question4 h1, .question5 h1, .question6 h1{
+    margin: 50px 0;
     text-align: center;
 }
 
-.question2 pre, .question3 pre, .question4 pre {
-    width: 900px;
+.question2 pre, .question3 pre, .question4 pre, .question5 pre, .question6 pre {
+    width: 1100px;
     background-color: black;
     color: white;
     margin: auto;
@@ -158,5 +158,21 @@ footer {
 
 .question2 .result p{
     font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.question4 p, .question6 p {
+    width: 600px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.question4 ul {
+    margin: auto;
+    width: 850px;
+    margin-bottom: 50px;
+}
+
+.question4 ul li{
     margin-bottom: 10px;
 }

@@ -10,7 +10,7 @@ class Question2 extends React.Component {
     }
   }
 
-  componentWillMount(){
+  componentDidMount(){
     fetch(url + "question-2")
     .then(res => res.json())
     .then(data => {
@@ -29,7 +29,7 @@ class Question2 extends React.Component {
       datasets: [
         {
           data: [this.state.data.result.airlines_count, this.state.data.result.airports_count, this.state.data.result.airports_distinct_tzone_count, this.state.data.result.flights_distinct_dest_count, this.state.data.result.planes_count],
-          LABEL : "",
+          label : "Nombre",
           backgroundColor: [
             'rgba(255, 99, 132, 0.2)',
             'rgba(54, 162, 235, 0.2)',

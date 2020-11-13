@@ -6,9 +6,7 @@ import Question3 from './views/question3';
 import Question4 from './views/question4';
 import Question5 from './views/question5';
 import Question6 from './views/question6';
-import Question7 from './views/question7';
 import Question8 from './views/question8';
-import Question9 from './views/question9';
 import Header from './components/header';
 import Footer from './components/footer';
 import Nav from './components/nav';
@@ -37,9 +35,7 @@ class App extends React.Component {
         {this.state.page === 4 ? <Question4/> : ""}
         {this.state.page === 5 ? <Question5/> : ""}
         {this.state.page === 6 ? <Question6/> : ""}
-        {this.state.page === 7 ? <Question7/> : ""}
         {this.state.page === 8 ? <Question8/> : ""}
-        {this.state.page === 9 ? <Question9/> : ""}
 
         <Footer/>
       </div>

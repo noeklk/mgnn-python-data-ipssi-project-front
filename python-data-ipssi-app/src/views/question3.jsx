@@ -9,11 +9,10 @@ class Question3 extends React.Component {
     }
   }
 
-  componentWillMount(){
+  componentDidMount(){
     fetch(url + "question-3")
     .then(res => res.json())
     .then(data => {
-      console.log(data.result[0].tzone_count);
       this.setState({
         data : {
           query : data.query,

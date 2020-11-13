@@ -21,7 +21,7 @@ class Question4 extends React.Component {
     }
   }
 
-  componentWillMount(){
+  componentDidMount(){
     fetch(url + "question-4")
     .then(res => res.json())
     .then(data => {
@@ -136,7 +136,7 @@ class Question4 extends React.Component {
         <pre>{this.state.data.query5}</pre>
         <h1>Nous avons les résultats suivants :</h1>
         <p>L'aéroport le plus fréquenté est {this.state.data.result1.airport_name}, avec {this.state.data.result1.flights_count} vols.</p>
-        <p>Les 10 destionations les plus prisées sont : </p>
+        <p><b>Les 10 destionations les plus prisées sont : </b></p>
         <ul>
           {this.state.data.result2.map((city) => {
             return(
@@ -144,7 +144,7 @@ class Question4 extends React.Component {
             )
           })}
         </ul>
-        <p>Les 10 destionations les moins prisées sont : </p>
+        <p><b>Les 10 destionations les moins prisées sont : </b></p>
         <ul>
           {this.state.data.result3.map((city) => {
             return(
@@ -152,7 +152,7 @@ class Question4 extends React.Component {
             )
           })}
         </ul>
-        <p>Les 10 avions les plus utilisés sont : </p>
+        <p><b>Les 10 avions les plus utilisés sont : </b></p>
         <ul>
           {result4.map((fly, index) => {
             return(
@@ -164,7 +164,7 @@ class Question4 extends React.Component {
           data={data}
           height="110"
         />
-        <p>Les 10 avions les moins utilisés sont : </p>
+        <p><b>Les 10 avions les moins utilisés sont : </b></p>
         <ul>
           {result5.map((fly, index) => {
             return(
