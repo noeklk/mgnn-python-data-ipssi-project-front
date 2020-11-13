@@ -15,7 +15,7 @@
 **Guillaume DEPRETZ**  - *Front-End & Back-End Developer Developer*
 
 
-**Nicolas AUBE**  - *Back-End Developer*  
+**Nicolas AUBE**  - *Front-End & Back-End Developer*  
 
 
 **Mohamed BOUROUCHE** - *Back-End Developer*
